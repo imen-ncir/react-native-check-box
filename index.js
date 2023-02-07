@@ -16,6 +16,8 @@ import {
     TouchableHighlight,
 } from 'react-native';
 
+import PropTypes from 'prop-types';
+
 export default class CheckBox extends Component {
     constructor(props) {
         super(props);
